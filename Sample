@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun & Challenging Sample Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-brand">SampleSite</div>
+        <ul class="navbar-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Fun & Challenging Website!</h1>
+            <p>Discover the beauty of advanced HTML and CSS</p>
+        </div>
+    </section>
+
+    <!-- Image Gallery -->
+    <section id="gallery" class="gallery">
+        <h2>Image Gallery</h2>
+        <div class="gallery-grid">
+            <figure>
+                <img src="image1.jpg" alt="Sample Image 1">
+                <figcaption>Image 1 Description</figcaption>
+            </figure>
+            <figure>
+                <img src="image2.jpg" alt="Sample Image 2">
+                <figcaption>Image 2 Description</figcaption>
+            </figure>
+            <figure>
+                <img src="image3.jpg" alt="Sample Image 3">
+                <figcaption>Image 3 Description</figcaption>
+            </figure>
+            <figure>
+                <img src="image4.jpg" alt="Sample Image 4">
+                <figcaption>Image 4 Description</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 SampleSite. All rights reserved.</p>
+    </footer>
+</body>
+</html>
